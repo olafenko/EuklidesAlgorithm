@@ -32,9 +32,9 @@ public class Euklides {
         int searchRange;
 
         if (a > b) {
-            searchRange = a;
-        } else {
             searchRange = b;
+        } else {
+            searchRange = a;
         }
 
         for (int i = 1; i<= searchRange; i++){
